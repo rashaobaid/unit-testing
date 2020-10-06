@@ -25,19 +25,5 @@ test("test keys", ()=>{
 
 
 
-// test ("kebab-case ",()=>{
-
-//  expect(toKebab("AliAhmad")).toBe("ali-ahmad")
-//  expect(toKebab("aliAhmad")).toBe("ali-ahmad")
-//  expect(toKebab("ali-ahmad")).toBe("ali-ahmad")
-//  expect(toKebab("ali_ahmad")).toBe("ali-ahmad")
-//  expect(toKebab("ALI_AHMAD")).toBe("ali-ahmad")
-//  expect(toKebab("ALi_AHMAd")).toBe("ali-ahmad")
-
-
-// })
-
-
-
 
 
