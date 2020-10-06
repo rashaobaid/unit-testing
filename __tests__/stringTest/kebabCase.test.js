@@ -2,7 +2,8 @@ const kebabCase =require('../../stringMethod/kebabCase');
 
 test('kebabCase ', () => {
     expect(kebabCase()).toBeUndefined();
-    expect(kebabCase('camelCase')).toBe('camel-case')
+    expect(kebabCase("AliAhmad")).toBe("ali-ahmad")
+    expect(kebabCase("aliAhmad")).toBe("ali-ahmad")
     expect(kebabCase("ali-ahmad")).toBe("ali-ahmad")
     expect(kebabCase("ali_ahmad")).toBe("ali-ahmad")
     expect(kebabCase("ALI_AHMAD")).toBe("ali-ahmad")
