@@ -8,6 +8,7 @@ test('kebabCase ', () => {
     expect(kebabCase("ali_ahmad")).toBe("ali-ahmad")
     expect(kebabCase("ALI_AHMAD")).toBe("ali-ahmad")
     expect(kebabCase("ALi_AHMAd")).toBe("ali-ahmad")
-
-   
+    expect(kebabCase("ALi_AHMAd_AHMAd")).toBe("ali-ahmad-ahmad")
+    expect(kebabCase("ALi_AHMAdAHMAd")).toBe("ali-ahmad-ahmad") 
+    expect(kebabCase("ALi")).toBe("ali")
 })
